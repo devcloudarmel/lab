@@ -132,3 +132,9 @@ Persistent Volumes and Claims
 
     kubectl describe pvc [pvc-name]
         Provides detailed information about a specific persistent volume claim.
+
+When we have to image in one pod
+
+    kubectl exec -it name_of_pod -c image -- bash
+
+Volume types: Persistent volumes and persistent volume clais
